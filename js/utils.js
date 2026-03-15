@@ -3,7 +3,7 @@
 const API_BASE_URL =
   window.location.hostname === "localhost"
     ? "http://localhost:5000/api"
-    : "https://nutri-snap-deploy.onrender.com/";
+    : "https://nutri-snap-deploy.onrender.com/api";
 
 // ── API fetch helper ──────────────────────────────────────────────────────────
 async function apiFetch(endpoint, options) {
